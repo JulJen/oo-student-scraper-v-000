@@ -9,6 +9,7 @@ class Student
   end
 
   def self.create_from_collection(students_array)
+    self.new(students_array).tap do |student|
 
   end
 
